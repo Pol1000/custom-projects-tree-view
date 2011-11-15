@@ -1,0 +1,40 @@
+0.0.11 (2011-01-04)
+	* April fools day patch i try to stop gsub bug
+0.0.10 (2011-01-26)
+	* DeX77 removed use of Dispatcher: this breaks production mode and is unnecessary for helper
+0.0.9 (2011-01-18)
+	* Ez Dakit correct missing change in admin pane when you work with project, you can't add one
+	* Ez Dakit correct ie and FF compatibility
+0.0.8 
+	* Matt Michielsen open the new repository https://github.com/mattmichielsen/projects_tree_view
+	* fix Overall activity by Matt Michielsen
+0.0.7 (2010-11-10)
+	* Subproject has been corrected
+0.0.6 (2010-11-10)
+	* Thanks to Harald Klimach the project can be compatible with Redmine >= 1.0.2
+      * The action for new projects changed from "add" to "new"
+0.0.5 (2010-11-03)
+	* versione otained from https://github.com/dem/projects_tree_view/archives/0.0.4
+	* thanks to DEM a version is compatible with Redmine 1.0.0 credits to suggestion goes to Daniel Herrera
+0.0.4 (2010-06-23):
+    * Sync with Redmine 0.9.4
+    * Added plugin functionality to admin/projects page
+    * Fix problem with projects without active children
+    * Deleted unuseful plugin-skeleton files
+0.0.3 (2009-08-02):
+    * Improved documentation and licensing
+    * Updated the core-overriding views (required compatibility-helpers, see below)
+    * Added compatibility-helpers in a new module to support older trunk
+      * 'users_by_role_implemented' for Redmine Core trunk@r2734
+      * 'authorize_global_implemented' for Redmine Core trunk@r2750
+    * Updated the plugin-skeleton including Rails 2.2.x i18n
+
+0.0.2 (2009-03-31):
+    * Switched to using javascript_include_tag and stylesheet_link_tag in
+      the init.rb file so that the base.rhtml file is untouched (makes it
+      so this plugin should work with Collapse and others)
+    * Added alternating Odd Even row highlighting
+    * Tweaked the color scheme a little
+
+0.0.1 (2009-03-11):
+    - Initial public release
